@@ -66,8 +66,18 @@ button {
     background-color: #C7F954;
 }
 
+.lighter {
+    color: grey;
+}
+
 .task-button {
     margin-left: 20px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 input {

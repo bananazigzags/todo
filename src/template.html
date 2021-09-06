@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="https://kit.fontawesome.com/a0f3616379.js" crossorigin="anonymous"></script>
     <div id="topline"><h1>TO-DO</h1></div>
     <div id="page">
         <div id="navbar">
@@ -19,19 +20,19 @@
                     <li class="projects" id="shopping">shopping</li>
                     <li class="projects" id="remodel">bathroom remodel</li>
                 </div>
-                    <button>+</button>
+                    <button id="new-project">+</button>
             </ul>
         </div>
-        <div>
-                <div>
+        <div id="main-page">
+                <div id="task-list">
                     <div class="task">
-                        <input type="checkbox">feed dog</div>
+                        <input type="checkbox" class="task-content-checkbox"><span class="task-item">feed dog<span class="fa fa-trash fa-lg"></span></span></div>
                     <div class="task">
-                        <input type="checkbox">water plants</div>
+                        <input type="checkbox" class="task-content-checkbox"><span class="task-item">water plants<span class="fa fa-trash fa-lg"></span></div>
                     <div class="task">
-                        <input type="checkbox">very long task that is just long and contains many words and letters and thoughts</div>
+                        <input type="checkbox" class="task-content-checkbox"><span class="task-item">very long task that is just long and contains many words and letters and thoughts<span class="fa fa-trash fa-lg"></span></div>
                 </div>
-                <button class="task-button">+</button>
+                <button id="task-button">+</button>
         </div>   
     </div>
 </body>
